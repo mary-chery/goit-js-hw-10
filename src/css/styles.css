@@ -68,6 +68,7 @@ input {
   height: 15px;
   left: 124px;
   top: 8px;
+    cursor: pointer;
 }
 
 .icon-vector-open {
