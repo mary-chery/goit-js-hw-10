@@ -49,19 +49,19 @@ const options = {
 
   
     
-  onClose(selectedDates) {
-    if (selectedDates) {
-    app.classList.remove('input-focus')
-    icon.classList.remove('icon-vector-open');
-    icon2.classList.remove('icon-vector-open-2');
-    } 
-  },
-  onChange(selectedDates) {
-    if (selectedDates[0].getTime() > new Date().getTime()) {
+  // onClose(selectedDates) {
+  //   if (selectedDates) {
+  //   app.classList.remove('input-focus')
+  //   icon.classList.remove('icon-vector-open');
+  //   icon2.classList.remove('icon-vector-open-2');
+  //   } 
+  // },
+  // onChange(selectedDates) {
+  //   if (selectedDates[0].getTime() > new Date().getTime()) {
 
-      alert('🥺 Ooops..., Please, choose a date in the past')
-    }
-  },
+  //     alert('🥺 Ooops..., Please, choose a date in the past')
+  //   }
+  // },
 
 };
 
