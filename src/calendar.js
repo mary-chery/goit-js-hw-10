@@ -56,12 +56,12 @@ const options = {
     icon2.classList.remove('icon-vector-open-2');
     } 
   },
-  // onChange(selectedDates) {
-  //   if (selectedDates[0].getTime() > new Date().getTime()) {
+  onChange(selectedDates) {
+    if (selectedDates[0].getTime() > new Date().getTime()) {
 
-  //     alert('🥺 Ooops..., Please, choose a date in the past')
-  //   }
-  // },
+      alert('🥺 Ooops..., Please, choose a date in the past')
+    }
+  },
 
 };
 
